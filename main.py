@@ -71,7 +71,7 @@ def change_directory(path):
     else:
         try:
             os.chdir(path)
-            current_directory = os.getcwd()  # Обновляем текущую директорию
+            current_directory = os.getcwd()
             print(Fore.LIGHTMAGENTA_EX + 'Changed directory to ' + path)
             print(Style.RESET_ALL)
         except:
